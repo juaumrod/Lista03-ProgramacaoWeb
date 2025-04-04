@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Interativa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Lista de Itens</h2>
+    <input type="text" id="itemInput" placeholder="Digite um item">
+    <button id="addItem">Adicionar</button>
+    <br><br>
+    <label for="itemSelect">Selecione um item:</label>
+    <br><br>
+    <select id="itemSelect">
+        <option value=""> Escolha um item </option>
+    </select>
+    <button id="markItem">Marcar</button>
+    <button id="unmarkItem">Desmarcar</button>
+    <button id="removeItem">Remover</button>
+    <table id="itemTable">
+        <thead>
+            <tr>
+                <th>Itens</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
