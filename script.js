@@ -19,12 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const itemText = input.value.trim();
         if (itemText === "") return;
 
-        // Criar linha da tabela
         const row = document.createElement("tr");
         row.innerHTML = `<td>${itemText}</td>`;
         tableBody.appendChild(row);
 
-        // Adicionar item ao <select>
         const option = new Option(itemText, itemText);
         select.appendChild(option);
 
